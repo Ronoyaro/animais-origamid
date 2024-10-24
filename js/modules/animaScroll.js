@@ -11,7 +11,6 @@ export default function AnimaScroll() {
         }
       })
     }
-
     window.addEventListener('scroll', aniScroll)
     aniScroll()
   }

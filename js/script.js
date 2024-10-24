@@ -7,6 +7,7 @@ import initAccordion from "./modules/accordion.js";
 import initTooltip from "./modules/tooltip.js";
 import dropDownMenu from "./modules/dropdown-menu.js";
 import menuMobile from "./modules/menu-mobile.js";
+import animaNumeros from "./modules/anima-numeros.js"
 
 initScrollToView();
 showModal();
@@ -16,3 +17,4 @@ initAccordion();
 initTooltip();
 dropDownMenu();
 menuMobile();
+animaNumeros();
