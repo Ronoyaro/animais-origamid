@@ -9,6 +9,7 @@ import dropDownMenu from "./modules/dropdown-menu.js";
 import menuMobile from "./modules/menu-mobile.js";
 import businessHour from "./modules/businessHour.js";
 import fetchAnimais from "./modules/fetchAnimais.js";
+import fetchBitcoin from "./modules/fetchBitcoin.js";
 
 initScrollToView();
 showModal();
@@ -20,3 +21,4 @@ dropDownMenu();
 menuMobile();
 businessHour();
 fetchAnimais();
+fetchBitcoin();

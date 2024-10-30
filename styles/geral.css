@@ -275,3 +275,10 @@ body {
   transform: translate3d(0, 0, 0);
   transition: .3s;
 }
+
+.btcApi {
+  background-color: #0fe61e;
+  font-weight: bolder;
+  padding: 3px;
+  border-radius: 5px;
+}
