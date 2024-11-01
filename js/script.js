@@ -1,6 +1,6 @@
 //Navegação por Tab
-import { initScrollToView } from "./modules/scrollToView.js";
-import showModal from "./modules/modal.js"; 
+import { ScrollToView } from "./modules/scrollToView.js";
+import showModal from "./modules/modal.js";
 import initTabNav from "./modules/nav-tab.js";
 import AnimaScroll from "./modules/animaScroll.js";
 import initAccordion from "./modules/accordion.js";
@@ -11,7 +11,6 @@ import businessHour from "./modules/businessHour.js";
 import fetchAnimais from "./modules/fetchAnimais.js";
 import fetchBitcoin from "./modules/fetchBitcoin.js";
 
-initScrollToView();
 showModal();
 initTabNav();
 AnimaScroll();
@@ -22,3 +21,7 @@ menuMobile();
 businessHour();
 fetchAnimais();
 fetchBitcoin();
+
+const scrollToView = new ScrollToView('.js-menu a[href^="#"]');
+
+scrollToView.init();
