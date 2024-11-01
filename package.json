@@ -1,0 +1,21 @@
+{
+  "name": "animals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --entry  ./js/script.js -o ./main --watch",
+    "build": "webpack --mode production --entry ./js/script.js -o ./main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.11.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
