@@ -3,8 +3,8 @@ import { ScrollToView } from "./modules/scrollToView.js";
 import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/nav-tab.js";
 import ShowModal from "./modules/modal.js";
+import Tooltip from "./modules/tooltip.js";
 import AnimaScroll from "./modules/animaScroll.js";
-import initTooltip from "./modules/tooltip.js";
 import dropDownMenu from "./modules/dropdown-menu.js";
 import menuMobile from "./modules/menu-mobile.js";
 import businessHour from "./modules/businessHour.js";
@@ -12,7 +12,6 @@ import fetchAnimais from "./modules/fetchAnimais.js";
 import fetchBitcoin from "./modules/fetchBitcoin.js";
 
 AnimaScroll();
-initTooltip();
 dropDownMenu();
 menuMobile();
 businessHour();
@@ -34,3 +33,6 @@ const showModal = new ShowModal(
   '[data-modal="container"]'
 );
 showModal.init();
+
+const tooltip = new Tooltip("[data-tooltip]");
+tooltip.init();
